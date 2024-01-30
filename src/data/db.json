@@ -1,0 +1,44 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "title": "Graphics & Design",
+            "picture": "https://plus.unsplash.com/premium_photo-1661281412140-dfb328ae967b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGlzZSVDMyVCMW8lMjBncmFmaWNvfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 2,
+            "title": "Digital Marketing",
+            "picture": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzZSVDMyVCMW8lMjBncmFmaWNvfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 3,
+            "title": "Writing & Translation",
+            "picture": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGlzZSVDMyVCMW8lMjBncmFmaWNvfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 4,
+            "title": "Video & Animation",
+            "picture": "https://plus.unsplash.com/premium_photo-1661284854881-77b3c89aa176?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZGlzZSVDMyVCMW8lMjBncmFmaWNvfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 5,
+            "title": "Programming & Tech",
+            "picture": "https://images.unsplash.com/photo-1626785774625-ddcddc3445e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGlzZSVDMyVCMW8lMjBncmFmaWNvfGVufDB8fDB8fHww"
+        },
+        {
+            "id": 6,
+            "title": "Data",
+            "picture": "https://images.unsplash.com/photo-1613479205646-c0dc1ee8511f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpc2UlQzMlQjFvJTIwZ3JhZmljb3xlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+            "id": 7,
+            "title": "Business",
+            "picture": "https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRpc2UlQzMlQjFvJTIwZ3JhZmljb3xlbnwwfHwwfHx8MA%3D%3D"
+        },
+        {
+            "id": 8,
+            "title": "Photography",
+            "picture": "https://images.unsplash.com/photo-1611241893603-3c359704e0ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGRpc2UlQzMlQjFvJTIwZ3JhZmljb3xlbnwwfHwwfHx8MA%3D%3D"
+        }
+    ]
+}
