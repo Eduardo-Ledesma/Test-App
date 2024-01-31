@@ -1,10 +1,10 @@
-import Cards from "./components/Cards";
+import CategoriesFetch from "./components/CategoriesFetch";
 
 export default function Home() {
   return (
-    <main>
-      <div>Hello</div>
-      <Cards />
-    </main>
+    <>
+      <div className="text-center text-2xl">This is the title</div>
+      <CategoriesFetch />
+    </>
   );
 }
