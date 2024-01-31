@@ -1,4 +1,4 @@
-import { Card } from "@/types/cardTypes"
+import { Card } from "@/app/(home)/types/cardTypes"
 import CardRender from "./CardRender"
 
 const getCategories = async (): Promise<Card[] | false> => {

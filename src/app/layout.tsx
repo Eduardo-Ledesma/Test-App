@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ComponentProps } from "@/types";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +12,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: ComponentProps) {
   return (
     <html lang="en">
-      <body className={`${"bg-background text-headline p-4 inter.className"}`}>{children}</body>
+      <body className={`${"bg-[#11141C] text-headline p-4 inter.className"}`}>{children}</body>
     </html>
   );
 }

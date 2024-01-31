@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Card } from "@/types/cardTypes"
+import { Card } from "@/app/(home)/types/cardTypes"
 
 interface CardRenderProps {
   cards: Card[];
