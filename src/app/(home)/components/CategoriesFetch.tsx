@@ -9,7 +9,7 @@ const getCategories = async (): Promise<Card[] | false> => {
     } catch (error) {
       return false
     }
-  }
+}
 
 const CategoriesFetch = async () => {
 
