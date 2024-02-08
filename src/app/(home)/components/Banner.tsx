@@ -1,12 +1,12 @@
 import { BannerDesc, BannerProps } from "../types/bannerTypes"
 
-const BannerDescription = ({ desc, descSpan, descLast = null }: BannerDesc) => {
+const BannerDescription = ({ desc, descSpan, descLast = null, color }: BannerDesc) => {
   // Los estilos irian aca???
 
   return (
       <p className="relative self-stretch [font-family:'Inter',Helvetica] font-normal text-transparent text-[48px] tracking-[0] leading-[48px]">
         <span className="font-bold text-[#d2d7e0]">{desc}</span>
-        <span className="font-bold italic text-[#b22d4b]">{descSpan}</span>
+        <span className={`font-bold italic text-[${color}]`}>{descSpan}</span>
         {descLast && <span className="font-bold text-[#d2d7e0]">{descLast}</span>}
       </p>
   )
@@ -19,7 +19,7 @@ const Banner = ({id, background, img, service, description, features, featDesc} 
 
   return (
     <div className="relative w-[1632px] h-[590px] rounded-[20px]">
-      <div className={`flex w-[1632px] h-[590px] items-center justify-center relative rounded-[20px] bg-${background}`}>
+      <div className={`flex w-[1632px] h-[590px] items-center justify-center relative rounded-[20px] ${background}`}>
         <div className="flex flex-col w-[802px] items-center justify-center gap-[10px] relative">
           <img
             alt="Image"
@@ -37,9 +37,9 @@ const Banner = ({id, background, img, service, description, features, featDesc} 
               {service}
             </div>
           </div>
-          <p className="relative w-[697px] h-[144px] mr-[-27.00px] font-normal text-[48px] tracking-[0] leading-[48px]">
+          <div className="relative w-[697px] h-[144px] mr-[-27.00px] font-normal text-[48px] tracking-[0] leading-[48px]">
             <BannerDescription {...description} />
-          </p>
+          </div>
           <div className="inline-flex items-center justify-center gap-[16px] relative flex-[0_0_auto] mr-[-37.00px]">
             <div className="flex w-[225px] items-center gap-[8px] relative">
               <img

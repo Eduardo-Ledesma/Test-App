@@ -12,5 +12,5 @@ export interface BannerDesc {
     desc: string;
     descSpan: string;
     descLast?: string | null;
-    color?: string;
+    color: string;
 };

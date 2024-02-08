@@ -9,25 +9,29 @@ const BannersRender = () => {
       desc: "Our system ",
       descSpan: "allows you to earn money",
       descLast: " by promoting service posts",
+      color: "#b22d4b"
     },
     {
       desc: "We have training and courses to continue ",
       descSpan: "increasing your skills",
+      color: "#38670a"
     },
     {
       desc: "We help you increase your visibility to ",
       descSpan: "clients around the world",
+      color: "#1015a9"
     },
     {
       desc: "We have plans designed for you ",
       descSpan: "according to your needs",
+      color: "#590d75"
     }
   ]
 
   const bannersData = [
     {
       id: 1,
-      background: "redgrad",
+      background: "red-gradient",
       img: "/home/red.png",
       service: "affiliates",
       description: descArray[0],
@@ -35,7 +39,7 @@ const BannersRender = () => {
     },
     {
       id: 2,
-      background: "greengrad",
+      background: "green-gradient",
       img: "/home/green.png",
       service: "learn",
       description: descArray[1],
@@ -43,7 +47,7 @@ const BannersRender = () => {
     },
     {
       id: 3,
-      background: "bluegrad",
+      background: "blue-gradient",
       img: "/home/blue.png",
       service: "ads",
       description: descArray[2],
@@ -51,7 +55,7 @@ const BannersRender = () => {
     },
     {
       id: 4,
-      background: "purplegrad",
+      background: "purple-gradient",
       img: "/home/purple.png",
       service: "members",
       description: descArray[3],

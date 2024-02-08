@@ -15,7 +15,7 @@ export default function RootLayout({
 }: ComponentProps) {
   return (
     <html lang="en">
-      <body className={`${"bg-[#11141C] text-headline p-4 inter.className"}`}>{children}</body>
+      <body className={`${"bg-bgBody text-headline p-4 inter.className"}`}>{children}</body>
     </html>
   );
 }
